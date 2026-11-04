@@ -3,16 +3,16 @@
   Keep an empty string for any profile you have not yet approved for publication.
   Example: googleScholar: "https://scholar.google.com/citations?user=..."
   Avatar: put your approved image at assets/profile.jpg
-  WeChat: put your approved QR code at assets/wechat-qr.png
+  WeChat: QR image path is set in wechatQr below.
 */
 const SITE_CONFIG = Object.freeze({
   googleScholar: "",
   github: "https://github.com/DaiShiBo369",
-  x: "",
-  linkedin: "",
-  rednote: "",
+  x: "https://x.com/Disboundary",
+  linkedin: "https://www.linkedin.com/in/dai-shibo-4527043b0/",
+  rednote: "https://www.xiaohongshu.com/user/profile/63ae4a160000000026011eb0",
   portrait: "assets/profile.jpg",
-  wechatQr: "assets/wechat-qr.png",
+  wechatQr: "img/qrcode_for_gh_f404e6a8ba53_860.jpg",
 });
 
 const socialNames = {googleScholar: "Google Scholar", github: "GitHub", x: "X", linkedin: "LinkedIn", rednote: "RedNote (Xiaohongshu)"};
